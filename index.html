@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><Weight-Calculator></Weight-Calculator></title>
+    <script src="calculation.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h2>Ideal Weight for 1-5 Years Kids</h2>
+      <label for="inputHeight">Height</label>
+      <input
+        type="text"
+        id="inputHeight"
+        maxlength="3"
+        placeholder="height in cm"
+      /><br /><br />
+      <label for="selection">Select Age</label>
+      <select id="selectValue">
+        <option value="selected" disabled selected>---Select----</option>
+        <option value="year1">1-Year</option>
+        <option value="year2">2-Year</option>
+        <option value="year3">3-Year</option>
+        <option value="year4">4-Year</option>
+        <option value="year5">5-Year</option></select
+      ><br /><br />
+      <button onclick="calculateWeight()">Show</button>
+      <p id="showResult"></p>
+    </div>
+  </body>
+</html>

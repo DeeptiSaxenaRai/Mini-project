@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(197, 193, 132);
+  max-width: 50%;
+  padding: auto;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: lightblue;
+  border: 2px, solid;
+  color: black;
+  text-align: center;
+}
+h2,
+label,
+p,
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+button {
+  background-color: brown;
+  color: aliceblue;
+}
